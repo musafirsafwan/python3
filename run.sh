@@ -1,2 +1,5 @@
 #!/bin/sh
-exec python main.py 
+python main.py
+echo "--"
+echo "Execution completed!"
+tail -f /dev/null
